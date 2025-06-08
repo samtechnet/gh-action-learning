@@ -1,5 +1,9 @@
 name: Client App Project
-on: push
+on: 
+  push:
+    paths:
+      - 'client/**'
+
 jobs:
     test:
         runs-on: ubuntu-latest
