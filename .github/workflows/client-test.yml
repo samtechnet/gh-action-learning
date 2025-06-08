@@ -13,6 +13,8 @@ jobs:
         steps:
             - name: Get code
               uses: actions/checkout@v3
+            - name: List client directory content
+              run:  ls -la
             - name: Install NodeJS
               uses: actions/setup-node@v3
               with: 
