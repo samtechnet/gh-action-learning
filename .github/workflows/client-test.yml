@@ -1,8 +1,8 @@
 name: Client App Project
-on: 
-  push:
-    paths:
-      - 'client/**'
+on: push
+  # push:
+  #   paths:
+  #     - 'client/**'
 
 jobs:
     test:
